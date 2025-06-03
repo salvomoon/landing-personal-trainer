@@ -1,1 +1,5 @@
 @import "tailwindcss";
+
+.tailwind-form button {
+    all: unset; /* Resetta gli stili */
+  }

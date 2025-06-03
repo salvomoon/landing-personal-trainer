@@ -8,12 +8,18 @@ import Footer from './components/Footer.vue'
 </script>
 
 <template>
-  <Navbar />
-  <Hero />
-  <Servizi />
-  <Testimonials />
-  <Contact />
-  <Footer />
+  <div class="flex flex-col min-h-screen">
+    <Navbar />
+    
+    <main class="flex-grow space-y-16 md:space-y-24 py-8">
+      <Hero />
+      <Servizi />
+      <Testimonials />
+      <Contact />
+    </main>
+    
+    <Footer class="mt-auto" />
+  </div>
 </template>
 
 <style scoped>
