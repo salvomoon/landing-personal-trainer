@@ -7,4 +7,5 @@ export default defineConfig({
   plugins: [vue(),
   tailwindcss(),
   ],
+  base: '/landing-personal-trainer/'
 })
